@@ -1,0 +1,115 @@
+.detail-content {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        color: #696969;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        padding: 16px 0 20px 0;
+    }
+
+    .sub-title {
+        color: #696969;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .rating {
+        img, span {
+            margin-right: 5px;
+        }
+        span {
+            color: #868686;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    .price {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 19px;
+        padding-bottom: 30px;
+        :nth-child(1) {
+            color: #EB3F36;
+            font-size: 22px;
+            font-weight: 500;
+        }
+        :nth-child(2) {
+            color: #6F8EFF;
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+
+    .add-cart {
+        display: flex;
+        gap: 19px;
+        
+        .counter {
+            display: flex;
+            gap: 2px;
+        }
+    }
+
+    .description {
+        margin-top: 28px;
+        color: #696969;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        
+    }
+}
+
+.container-description {
+    justify-content: center;
+    font-family: 'Montserrat';
+}
+
+.css-heg063-MuiTabs-flexContainer {
+    gap: 50px;
+}
+
+.description-text {
+    margin-top: 45px;
+    color: #696969;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    white-space: pre-line;
+}
+
+.recomendation {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .recomendation-title {
+        font-weight: 700;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 10px;
+    
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 131px;
+            
+            height: 2px;
+            background-color: #EB3F36; /* Warna garis */
+        }
+    }
+
+    .recomendation-content {
+        margin-top: 53px;
+        display: flex;
+        gap: 45px;
+    }
+}  

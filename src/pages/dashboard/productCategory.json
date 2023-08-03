@@ -1,0 +1,35 @@
+{
+    "origin" : [
+        {"name": "Aceh", "total": 8},
+        {"name": "Semarang", "total": 2},
+        {"name": "Bandung", "total": 7},
+        {"name": "Jawa", "total": 5},
+        {"name": "Amerika Selatan", "total": 6},
+        {"name": "Lain - Lain", "total": 8}
+    ],
+    "spesies" : [
+        {"name": "Arabika", "total": 128},
+        {"name": "Robusta", "total": 23},
+        {"name": "Blend", "total": 9}
+    ],
+    "roastLevel" : [
+        {"name": "Light Roast", "total": 8},
+        {"name": "Medium Roast", "total": 2},
+        {"name": "Dark Roast", "total": 7},
+        {"name": "Light to Medium Roast", "total": 5}
+    ],
+    "tasted" : [
+        {"name": "Sweet", "total": 18},
+        {"name": "Floral", "total": 21},
+        {"name": "Fruity", "total": 7},
+        {"name": "Nutty", "total": 5},
+        {"name": "Cocoa", "total": 21},
+        {"name": "Spices", "total": 18}
+    ],
+    "processing" : [
+        {"name": "Honey White", "total": 8},
+        {"name": "Natural", "total": 2},
+        {"name": "Honey Gold", "total": 7},
+        {"name": "Honey Yellow", "total": 5}
+    ]
+}

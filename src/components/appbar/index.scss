@@ -1,0 +1,95 @@
+@import "../../styles/variables.scss";
+
+.MuiAppBar-root {
+    padding: 15px 0;
+    .MuiToolbar-root {
+        .content-wrapper {
+            display: flex;
+            column-gap: 25px;
+            align-items: center;
+            margin-right: 20px;
+
+            .search-input {
+                display: flex;
+                align-items: center;
+                margin-right: 5px; /* Sesuaikan ukuran margin dengan kebutuhan */
+                .text-field {
+                    width: 400px;
+                    height: 40px;
+                    border-top-left-radius: 7px;
+                    border-bottom-left-radius: 7px;
+                    background: #FFF;
+                    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+                    .MuiFormLabel-root {
+                      color: #868686;
+                      font-family: 'Montserrat';
+                      font-size: 16px;
+                    }
+                    .MuiOutlinedInput-notchedOutline {
+                      border: none;
+                    }
+                    .MuiInputBase-input {
+                      font-family: 'Montserrat';
+                    }
+                    &.error {
+                      .MuiOutlinedInput-root {
+                        &:hover {
+                          fieldset {
+                            border-color: #EB3F36;
+                          }
+                        }
+                        fieldset {
+                          border-color: #EB3F36 !important;
+                        }
+                      }
+                    }
+                }
+                
+                .custom-button {
+                    margin-top: 9px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    padding: 8px 15px; /* Sesuaikan ukuran padding dengan kebutuhan */
+                    background-color: $color-red; /* Sesuaikan warna latar belakang dengan kebutuhan */
+                    color: #fff; /* Sesuaikan warna teks dengan kebutuhan */
+                    border: none;
+                    cursor: pointer;
+                    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+                    border-top-right-radius: 7px;
+                    border-bottom-right-radius: 7px;
+                    img {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            &:nth-child(2),
+            &:nth-child(3),
+            &:nth-child(4) {
+                cursor: pointer;
+            }
+
+            img {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.header {
+    background-color: rgba(245, 245, 245, 1);
+    height: 64px;
+    .content {
+        width: 212px;
+        height: 64px;
+        background-color: $color-red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        img {
+            color: #FFF;
+        }
+    }
+}

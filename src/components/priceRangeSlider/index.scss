@@ -1,0 +1,13 @@
+.nominal {
+    display: flex;
+    align-items: center;
+
+    .price-input {
+      width: 80px;
+      height: 30px;
+      border: 1px solid #f2f2f2;
+      background: rgba(248, 248, 248, 0.75);
+      padding: 6px;
+      font-size: 14px;
+    }
+  }

@@ -1,0 +1,84 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+    width: 302px;
+    height: 447px;
+    border-radius: 4px;
+    border: 1px solid #ECECEC;
+    background: #FFF;
+    padding: 0 11px 20px 11px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.13);
+    position: relative;
+    transition: filter 0.3s ease;
+
+    .images {
+        height: 300px;
+    }
+
+    .hover-buttons {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+
+      img {
+        cursor: pointer;
+      }
+  
+      button {
+        background-color: transparent;
+        border: 1px solid rgba(105, 105, 105, 1);
+        color: rgba(105, 105, 105, 1);
+        padding: 5px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+  
+      .details-text {
+        color: #FFF;
+        cursor: pointer;
+        background-color: #696969;
+        padding: 5px;
+        font-weight: 700;
+        border-radius: 7px;
+      }
+    }
+    .title {
+        max-width: 100%;
+        color: #696969;
+        font-size: 20px;
+        font-weight: 700;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .sub-title {
+        max-width: 100%;
+        color: #696969;
+        font-size: 16px;
+        font-weight: 500;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .rating {
+        color: #868686;
+        font-size: 10px;
+        font-weight: 400;
+        span {
+            margin-left: 5px;
+        }
+    }
+    .price {
+        color: #EB3F36;
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
